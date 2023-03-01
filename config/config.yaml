@@ -1,0 +1,26 @@
+# 神经网络超参数设置
+network_param:
+  input_node: 784
+  output_node: 10
+  layer1_node: 500
+  batch_size: 100
+  training_steps: 30000
+  learning_rate_base: 0.8
+  learning_rate_decay: 0.99
+  regularization_rate: 0.001
+  moving_average_decay: 0.99
+
+# 模型保存路径
+model_save_path:
+  pb: model/pb/mnist_model_pb
+  ckpt: model/ckpt/mnist_model_ckpt
+
+# 数据路径
+data:
+  mnist_reconstruct/data/MNIST_data
+
+log:
+  logdir: logs
+
+
+
