@@ -1,0 +1,2 @@
+# MNIST_tensoflow_1.15
+简单mnist数字识别tensorflow样例代码项目构建范例
